@@ -2,6 +2,10 @@ namespace ToDoList.Models
 {
   public class Item
   {
-    //properties + methods
+    public string Description {get;}
+    public Item(string description)
+    {
+      Description = description;
+    }
   }
 }
